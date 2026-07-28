@@ -67,7 +67,6 @@ HR Analytics
 
 ---
 
-## 📷 Dashboard Preview
 
 ## 📷 Dashboard Preview
 
