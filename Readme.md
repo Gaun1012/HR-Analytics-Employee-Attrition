@@ -67,9 +67,16 @@ HR Analytics
 
 ---
 
+
 ## 📷 Dashboard Preview
 
-(Add screenshots here after uploading to GitHub.)
+### Executive Overview
+
+![Executive Dashboard](Images/Executive_Overview.png)
+
+### Detailed Analysis
+
+![Detailed Dashboard](Images/Detailed_Analysis.png)
 
 ---
 
