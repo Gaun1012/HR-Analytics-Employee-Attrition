@@ -109,11 +109,11 @@ Based on the analysis:
 
 ### Executive Overview
 
-![Executive Dashboard](Images/Executive_Overview.png)
+![Executive Dashboard](Images/Executive%20Overview.png)
 
 ### Detailed Analysis
 
-![Detailed Dashboard](Images/Detailed_Analysis.png)
+![Detailed Dashboard](Images/Detailed%20Analysis.png)
 
 ---
 
