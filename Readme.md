@@ -1,72 +1,109 @@
-# HR Analytics Dashboard
+# 📊 HR Analytics Dashboard | Employee Attrition Analysis
 
 ## 📌 Project Overview
 
-This project is an interactive HR Analytics Dashboard built using Power BI to analyze employee attrition and identify key factors contributing to workforce turnover. The dashboard enables HR professionals to make data-driven decisions by exploring employee trends across departments, job roles, demographics, salary levels, business travel, overtime, and tenure.
+This project analyzes employee attrition using HR data to identify the key factors influencing employee turnover. The objective is to help HR teams make data-driven decisions to improve employee retention and workforce planning.
+
+The dashboard was built using Power BI with data cleaning and transformation performed using Power Query, SQL, and Python.
+
+---
+
+## 🎯 Business Problem
+
+Employee attrition is a major challenge for organizations because replacing employees increases hiring costs and reduces productivity.
+
+The goal of this project is to answer questions such as:
+
+- Which departments experience the highest attrition?
+- Which age groups are leaving the company?
+- Does salary influence employee turnover?
+- Which job roles have the highest attrition?
+- What factors contribute most to employee exits?
 
 ---
 
 ## 🛠️ Tools & Technologies
 
 - Power BI
+- SQL
+- Python
+- Excel
 - Power Query
 - DAX
-- Microsoft Excel
-- SQL
-- Python (Pandas)
 
 ---
 
-## 📊 Dashboard Features
+## 📂 Dataset
 
-### Executive Overview
-- Total Employees
-- Attrition Count
+- Employee Records: 1,470
+- Multiple HR attributes including:
+  - Age
+  - Department
+  - Education
+  - Job Role
+  - Monthly Income
+  - Business Travel
+  - Job Satisfaction
+  - Overtime
+  - Attrition
+
+---
+
+## 🔄 Data Cleaning
+
+The dataset was cleaned using:
+
+- Removed duplicate records
+- Handled missing values
+- Standardized categorical values
+- Created calculated columns
+- Built DAX measures
+- Performed data transformation using Power Query
+
+---
+
+## 📈 Dashboard Features
+
+The dashboard includes:
+
+- Executive KPI Cards
 - Attrition Rate
-- Average Income
+- Employee Count
 - Average Age
+- Average Salary
 - Average Years at Company
 - Department-wise Attrition
-- Job Role-wise Attrition
-- Gender-wise Attrition
-- Education Field-wise Attrition
-
-### Detailed Analysis
-- Age-wise Attrition
-- Salary Slab-wise Attrition
-- Marital Status-wise Attrition
-- Overtime-wise Attrition
-- Business Travel-wise Attrition
-- Attrition by Years at Company
+- Job Role Analysis
+- Age Group Analysis
+- Gender Distribution
+- Interactive Filters
+- Drill-down Analysis
 
 ---
 
-## 💡 Key Insights
+## 📊 Key Insights
 
-- Research & Development recorded the highest employee attrition.
-- Laboratory Technicians showed the highest attrition among job roles.
-- Employees aged 26–35 experienced the highest attrition.
-- Employees earning up to ₹5K had the highest attrition.
-- Employees working overtime were more likely to leave the company.
-- Employees travelling frequently showed higher attrition.
+Some important findings include:
 
----
-
-## 📁 Project Structure
-
-```
-HR Analytics
-│
-├── Dashboard
-├── Dataset
-├── Excel
-├── Python
-├── SQL
-└── README.md
-```
+- Sales department experienced the highest attrition.
+- Employees working overtime showed significantly higher attrition.
+- Employees with lower monthly income were more likely to leave.
+- Young professionals had higher turnover compared to senior employees.
+- Certain job roles consistently experienced higher attrition.
 
 ---
 
+## 💡 Business Recommendations
+
+Based on the analysis:
+
+- Improve retention strategies for high-risk departments.
+- Review overtime policies.
+- Increase employee engagement initiatives.
+- Improve compensation for high attrition roles.
+- Develop targeted retention programs for younger employees.
+
+---
 
 ## 📷 Dashboard Preview
 
@@ -79,6 +116,32 @@ HR Analytics
 ![Detailed Dashboard](Images/Detailed_Analysis.png)
 
 ---
+
+## 📁 Repository Structure
+
+HR-Analytics-Employee-Attrition/
+
+│── Dataset/
+
+│── Power BI Dashboard/
+
+│── SQL/
+
+│── Python/
+
+│── Images/
+
+│── README.md
+
+---
+
+## 🚀 Future Improvements
+
+- Predict employee attrition using Machine Learning.
+- Add forecasting.
+- Deploy dashboard online.
+- Connect dashboard to live SQL database.
+
 
 ## 👤 Author
 
